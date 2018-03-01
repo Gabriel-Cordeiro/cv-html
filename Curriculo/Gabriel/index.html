@@ -1,0 +1,180 @@
+<HTML>
+
+<head>
+	<title> LAOUYT HTML/CSS</title>
+	<style class="Text/CSS">
+
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		#conteudo {
+			width: 100%;
+			background-color: white;
+			text-align: center;
+			align-items: center;
+		}
+
+		#DadosPessoais {
+			position: relative;
+			color: gray;
+			background-color: #F8F8FF;
+			border: 1px solid #ccc;
+			max-width: 600px;
+			margin: 0px auto;
+			box-shadow: -1px 1px 10px #dedede;
+		}
+
+		h1 {
+			font-size: 26px;
+			margin: 15px 0;
+		}
+
+		p {
+			margin: 6px 0;
+		}
+
+		#Dados {
+			color: gray;
+			background-color: #F8F8FF;
+			width: 400px;
+			margin: 0px;
+		}
+
+		@media (min-width: 768px) {
+			.foto {
+				position: absolute;
+				left: 10px;
+				top: 10px;
+			}
+		}
+
+		@media (max-width: 767px) {
+			.foto-container{
+				width: 100%;
+				float: left;
+				margin-bottom: 15px;
+			}
+		}
+
+		.foto {
+			border-radius: 2px;
+			display: block;
+			margin: auto;
+			height: 120px;
+		}
+
+		.detalhes {
+			text-align: left;
+			/* border: 1px solid; */
+			/* max-width: 75%; */
+			padding: 0 15%;
+			margin: auto;
+
+		}
+	</style>
+</head>
+
+<body>
+	<div id="conteudo">
+			<div id="DadosPessoais">
+				<h1>Dados pessoais </h1>
+				<div class="foto-container">
+					<img src="data/FOTO1.jpg" class="foto">
+				</div>
+				<p><strong>Nome:</strong> Gabriel da Silva Cordeiro</p>
+				<p><strong>Nascimento:</strong> 04/12/1996</p>
+				<p><strong>Telefone:</strong> (19) 98145-8127 </p>
+				<p><strong>Email:</strong> gabrielsilva.ipms@gmail.com</p>
+				<p><strong>Sexo:</strong> Masculino</p>
+				<hr/>
+
+				<section>
+				<h3>Endereço</h3>
+				<div class="detalhes">
+				<strong>Rua:</strong> Cecilia dos santos napolitano Nº 104
+				<p><strong>Bairro:</strong> Jatobá </p>
+				<strong>Cidade:</strong> Sumaré/SP
+				</div>
+				<hr/>
+				</section>
+			
+				<section>
+					<h2>Qualificações </h2>
+					<div class="detalhes">
+						<p>
+							<strong>Ensino médio:</strong> Concluído</p>
+						<p>
+							<strong>Bacharelado :</strong> Sistemas de informação- (UNASP-Hortolandia) </p>
+						<p>
+							<strong>Inglês:</strong> Avançado</p>
+						<p>
+							<strong>Certificado Inglês:</strong> ISI Study Ireland - 2016 </p>
+						<p>
+							<strong>Habilidades:</strong> SQL Server, mysql</p>
+						<p>
+							<strong>Habilidades:</strong> Linguagem de programação: JAVA, C#, NodeJs </p>
+						<p>
+							<strong>Habilidades:</strong> API RestFul, xml, linq, azure, Entity FrameWork </p>
+					</div>
+					<hr/>
+				</section>
+				
+				<section>
+				<h2>Experiencias profissionais </h2>
+				
+				<div class="detalhes">
+					<strong>Empresa: </strong>I-Value
+					<br>
+					<strong>Cargo: </strong>Desenvolvedor Jr
+					<br>
+					<strong>Período: </strong>04/2016-. à (atual/2018)
+					<br>
+					<strong>Desenvolvimento Web </strong>Desenvolvimento web em .net e outras linguagens
+					<br>
+					<p>
+						<strong>Competências:</strong>
+						Desenvolvimento web com .Net c#
+						<br/> Sql Server.
+						<br/> NodeJs.
+						<br/> Manipulação de dados com xml, json
+						<br/> Mysql, firebird
+					</p>
+					<br/>
+					<strong>Empresa: </strong>
+					 I-Value
+					<br>
+					<strong>Cargo: </strong>
+					Estágio em TI
+					<br>
+					<strong>Período: </strong>
+					<i>05/2015-. à 04/2016) </i>
+					<br>
+					<strong>Desenvolvimento Web </strong>
+					<i> Desenvolvimento web em .net e outras linguagens </i>
+					<br>
+					<p>					
+						<strong>Competências:</strong> Desenvolvimento web com .Net c#, Sql Server, Manipulação de dados com xml, json, Mysql, firebird,Manutenção em projetos em c#.
+					</p>
+				</div>
+			</section>
+		</div>
+	</div>
+
+
+
+	<!-- <div id="footer">
+		
+				Aluno: Gabriel </br>
+				R A: 51087. </br>
+				Profº Julio Lemos. </br>
+		
+				Faculdade: UNASP Hortolandia. </br>
+			</div> -->
+
+
+
+
+</body>
+
+</HTML>
